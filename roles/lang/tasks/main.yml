@@ -3,9 +3,9 @@
   tags:
     - gem
 
-- include: go.yml
-  tags:
-    - go
+#- include: go.yml
+#  tags:
+#    - go
 
 - include: pip.yml
   tags:

@@ -2,28 +2,23 @@
 homebrew_taps:
   - { tap: caskroom/cask }
   - { tap: homebrew/binary }
-  - { tap: homebrew/dupes }
+  - { tap: homebrew/core }
   - { tap: caskroom/fonts }
   - { tap: caskroom/versions }
   - { tap: sanemat/font }
-  - { tap: kevwil/patches }
-  - { tap: bfontaine/utils }
-  - { tap: caarlos0/antibody }
-  - { tap: caius/jo }
-  - { tap: classmethod/repos }
+# - { tap: kevwil/patches }
+# - { tap: bfontaine/utils }
+# - { tap: caarlos0/antibody }
+# - { tap: caius/jo }
 
 homebrew_cask_packages:
   - { name: iterm2 }
-  - { name: firefox }
   - { name: google-japanese-ime }
-  - { name: java }
-  - { name: karabiner-elements }
+# - { name: karabiner-elements }
   - { name: vagrant }
   - { name: virtualbox }
-  - { name: kindle }
-  - { name: xquartz }
+# - { name: xquartz }
   - { name: alfred }
-  - { name: gimp }
   - { name: macvim }
   - { name: slack }
   - { name: skype }
@@ -31,7 +26,6 @@ homebrew_cask_packages:
 homebrew_packages:
   - { name: brew-cask }
   - { name: ghq, install_options: completions }
-  - { name: pcre }
   - { name: libxml2 }
   - { name: glib }
   - { name: fontconfig }
