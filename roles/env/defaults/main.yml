@@ -10,4 +10,4 @@ symlinks:
   - { src: "{{ ansible_user_dir }}/.vimrc", dest: "{{ ansible_user_dir }}/.config/nvim/init.vim" }
 
 setup_repositories:
-  - { chdir: "{{ ansible_user_dir }}/ghq/github.com/kowwwwji/dotfiles", creates: "{{ ansible_user_dir }}/.vimrc" }
+  - { chdir: "{{ ansible_user_dir }}/ghq/github.com/kowwwwji/dotfiles/.vimrc", creates: "{{ ansible_user_dir }}/.vimrc" }

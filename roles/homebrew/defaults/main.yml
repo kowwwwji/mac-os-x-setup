@@ -24,7 +24,7 @@ homebrew_cask_packages:
   - { name: skype }
 
 homebrew_packages:
-  - { name: brew-cask }
+# - { name: brew-cask }
   - { name: ghq, install_options: completions }
   - { name: libxml2 }
   - { name: glib }
@@ -60,7 +60,7 @@ homebrew_packages:
   - { name: xz }
   - { name: lua }
   - { name: neovim/neovim/neovim }
-  - { name: rsense }
+# - { name: rsense }
   - { name: pyenv }
   - { name: pyenv-virtualenv }
   - { name: plenv }
@@ -72,27 +72,27 @@ homebrew_packages:
   - { name: ripmime }
   - { name: urlview }
   - { name: weechat, install_options: "with-ruby, with-python, with-perl" }
-  - { name: rfc }
+# - { name: rfc }
   - { name: mobile-shell }
   - { name: xhyve }
   - { name: ricty }
-  - { name: kevwil/patches/mutt, install_options: "with-sidebar-patch, with-confirm-attachement-patch, with-trash-patch" }
+# - { name: kevwil/patches/mutt, install_options: "with-sidebar-patch, with-confirm-attachement-patch, with-trash-patch" }
   - { name: npm }
   - { name: fpp }
   - { name: bash }
-  - { name: antibody }
+# - { name: antibody }
   - { name: freetype }
   - { name: procmail }
   - { name: argon/mas/mas }
   - { name: watch }
   - { name: unar }
   - { name: jo }
-  - { name: redpen }
-  - { name: aurl }
+# - { name: redpen }
+# - { name: aurl }
   - { name: gnu-sed }
   - { name: gifsicle }
   - { name: ffmpeg }
-  - { name: dynamodb-local }
+# - { name: dynamodb-local }
   - { name: terraform }
   - { name: packer }
   - { name: consul }
