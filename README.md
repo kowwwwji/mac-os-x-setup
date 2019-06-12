@@ -48,10 +48,10 @@ $ xcode-select --install
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-* Clone [my mac os x setup repository](https://github.com/knakayama/mac-os-x-setup)
+* Clone [my mac os x setup repository](https://github.com/kowwwwji/mac-os-x-setup)
 
 ```bash
-$ git clone https://github.com/kowwwwji/mac-os-x-setup ~/ghq/github.com/kowwwwji/mac-os-x-setup
+$ git clone https://github.com/kowwwwji/mac-os-x-setup ~/.ghq/github.com/kowwwwji/mac-os-x-setup
 ```
 
 * Run [Ansible](https://github.com/ansible/ansible)
